@@ -1,0 +1,19 @@
+body {
+    background-color: yellow;
+    color: blue
+}
+a:hover {
+    text-decoration: none;
+    padding: 11px;
+    color: blue;
+}
+a:visited {
+    text-decoration: none;
+    color: red;
+}
+a:link {
+    color: black;
+}
+ul {
+    list-style: none;
+}
