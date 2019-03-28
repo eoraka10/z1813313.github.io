@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Assignment 9-5</title>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <form method="post"
+                action="http://webdevbasic.net/scripts/demo.php">
+              <fieldset>
+                <label for="myName">*name:</label>
+                <input type="text" name="myName" id="myName"
+                    required="required" placeholder="your first and last name"><br><br>
+                <label for="myEmail">*E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail"
+                    required="required" placeholder="you@yourdomain.com">
+                <label for="myRating">Rating: (1-10):</label>
+                </fieldset>
+                <input type="number" name="myRating" id="myRating"
+                    min="1" max="10"><br><br>
+                <label for="myComments">*Comments:</label>
+                <textarea name="myComments" id="myComments" rows="2" cols="20"
+                    required="required"></textarea>
+                <input id="mySubmit" type="submit" value="Submit">
+            </form>
+        </body>
+        <footer> &nbsp; <a href="mailto:"></a></footer>
+    </html>
