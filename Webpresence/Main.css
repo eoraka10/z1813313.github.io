@@ -1,7 +1,8 @@
-
+<style>
     body{
-        background-image: url(/../Backgroundpic.jpg);
+        background-image: url(Backgroundpic.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: auto;
     }
+</style>
