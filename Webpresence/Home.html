@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Oraka EFetobo</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="main.css">
+            <style>
+                body{
+                    background-image: url(Backgroundpic.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                }
+            </style>
+        </head>
+        <body>
+            <div style="float:left;"id="container">
+                <header role="banner">
+                    <h1>Oraka EFetobo</h1>
+                </header>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="Mywebsite.html">Main</a></li>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About Me.html">About Me</a></li>
+                        <li><a href="Interest.html">Interest</a></li>
+                        <li><a href="Career.html">Career</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Goals.html">Goals</a></li>
+                    </ul>
+                    <img src="mycrop.jpg" width ="200" height="200" alt="">
+                </nav>
+                <aside role="complementary">
+                </aside>
+                <main role="main" id="content">
+                    <h3>About Me</h3>
+                    <p>  I will discuss with you about myself, what keeps me going and what is my goal in few years</p>
+                    <footer role="contentinfo"> Copyright &copy; 2019 EFetobo Oraka<br>
+                    </footer>
+                </main>
+            </div>
+            <div>
+                    <form style="float:right;" method="post" action="http://webdevbasic.net/scripts/demo.php">
+                  <fieldset>
+                    <label for="myName">*name:</label>
+                    <input type="text" name="myName" id="myName"
+                        required="required" placeholder="your first and last name"><br><br>
+                    <label for="myEmail">*E-mail:</label>
+                    <input type="email" name="myEmail" id="myEmail"
+                        required="required" placeholder="you@yourdomain.com">
+                    <label for="myRating">Rating: (1-10):</label>
+                    </fieldset>
+                    <input type="number" name="myRating" id="myRating"
+                        min="1" max="10"><br><br>
+                    <label for="myComments">*Comments:</label>
+                    <textarea name="myComments" id="myComments" rows="2" cols="20"
+                        required="required"></textarea>
+                    <input id="mySubmit" type="submit" value="Submit">
+                </form>
+                </form>
+            </div>
+        </body>
+    </html>

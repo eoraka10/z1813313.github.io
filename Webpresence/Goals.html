@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<style>
+  
+    div {
+    height: 400px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff3300 100%)
+  }
+        * {
+      box-sizing: border-box;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+    <html lang="en">
+        <head>
+            <title>Oraka EFetobo</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="main.css">
+        </head>
+        <body>
+            <div id="container">
+                <header role="banner">
+                    <h1>Oraka EFetobo</h1>
+                </header>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="Mywebsite.html">Main</a></li>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About Me.html">About Me</a></li>
+                        <li><a href="Interest.html">Interest</a></li>
+                        <li><a href="Career.html">Career</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Goals.html">Goals</a></li>
+                    </ul>
+                    <img src="mycrop.jpg" width ="150" height="200" alt="">
+                </nav>
+                <aside role="complementary">
+                </aside>
+                <main role="main" id="content">
+                    <p> My goal is to build a real estate empire in the future. I believe in being my own
+                        boss and i will like to build and develop properties for the rich and middle class
+                        people in North America and some parts of the globe.</p>
+                   
+                </main>
+            </div>
+            <div class="row">
+                    <div class="column" style="background-color:#aaa; margin-top:80px;">
+                      <h2>Europe</h2>
+                      <p> I will love to travel to 10 15 European countries 
+                        in the next 10 years time.</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb; margin-top:80px;">
+                      <h2>Africa</h2>
+                      <p>i plan to trvel to Ghana and sengeal when i 
+                        graduate from college in december</p>
+                    </div>
+                  </div>
+        </body>
+        <footer role="contentinfo"> Copyright &copy; 2019 EFetobo Oraka<br>
+          <a href="https://mail.google.com">emarkatinus@gmail.com</a>
+                    </footer>
+    </html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Oraka EFetobo</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, intitial-scale=1">
+            <style>
+                    body{
+                        background-image: url(Backgroundpic.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                    }
+            </style>
+        </head>
+
+        <body>
+            <div style="float:left;" id="container">
+                <header role="banner">
+                    <h1>Oraka Efetobo</h1>
+                </header>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="Mywebsite.html">Main</a></li>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About Me.html">About Me</a></li>
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="Awards.html">Awards</a></li>
+                        <li><a href="Lived.html">Lived</a></li>
+                        <li><a href="Travel.html">Travel</a></li>
+                        <li><a href="Interest.html">Interest</a></li>
+                        <li><a href="Career.html">Career</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Goals.html">Goals</a></li>
+                    </ul>
+                    <img src="mycrop.jpg" width ="150" height="200" alt="">
+                </nav>
+                <aside role="complementary">
+                </aside>
+                <main role="main" id="content">
+                    <p> My name is Efetobo Oraka. i am a student of Northern Illinois University.<br> i am in my senior year in College.
+                        I major in Operations Management Information Systems. <br>I am looking forward to graduating in May of 2019.</p>
+                    <footer role="contentinfo"> Copyright &copy; 2019 EFetobo Oraka<br>
+                        <p>Click the button to print the current page.</p>
+
+                        <button onclick="myFunction()">Print this page</button>
+                        
+                        <script>
+                        function myFunction() {
+                          window.print();
+                        }
+                        </script>   
+                    </footer>
+                </main>
+            </div>
+            <div>
+                    <form style="float:right;">
+                            <h1>Questions About Me</h1>
+                            <label for="myName">*Name:</label>
+                            <input type="text" name="myName" id="myName"
+                                required="required" placeholder="your first and last name"><br><br>
+                            <label for="myEmail">*E-mail:</label>
+                            <input type="email" name="myEmail" id="myEmail"
+                                required="required" placeholder="you@yourdomain.com">
+                            <fieldset>
+                                <legend>How many countries have i visted?:</legend>
+                                <input type="checkbox" name="Three" id= "Three" value ="yes"> Three <br>
+                                <input type="checkbox" name="Two" id= "Two" value ="yes"> Two <br>
+                                <input type="checkbox" name="Four" id= "Four" value ="yes"> Four <br>
+                                <input type="checkbox" name="Five" id= "Five" value ="yes"> Five <br>
+            
+                            </fieldset>
+                            <fieldset>
+                                <legend>What Major am i studying in NIU?:</legend>
+                                <input type="radio" name="Accounting" id="Accounting" value="Accounting"> Accounting<br>
+                                <input type="radio" name="Finance" id="Finance" value="Finance"> Finance<br>
+                                <input type="radio" name="OMIS" id="OMIS" value="OMIS"> OMIS<br>
+                                <input type="radio" name="Management" id="Management" value="Management"> Management<br>
+                            </fieldset>
+                            <fieldset>
+                                <legend>How many countries will i visit in december:</legend>
+                                <select size="3" name="musiclocation" id="musiclocation">
+                                    <option value="Two">Two</option>
+                                    <option value="Three">Three</option>
+                                    <option value="Four">Four</option>
+                                    <option value="Five">Five</option>
+                            </fieldset>
+                            <fieldset>
+                                <legend>What role does music play in your life?</legend>
+                            </fieldset>
+                            <label for="myComments">*Comments:</label>
+                            <textarea name="myComments" id="myComments" rows="3" cols="60"
+                                required="required"></textarea>
+                                <input id="mySubmit" type="submit" value="Submit">
+                                <input id="myreset" type="reset" value="reset">
+                        </form>
+            </div>
+
+
+</div>
+        </body>
+    </html>
