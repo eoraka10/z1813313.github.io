@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<style>
+        * {
+      box-sizing: border-box;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+    <html lang="en">
+        <head>
+            <title>Oraka EFetobo</title>
+            <meta charset="utf-8">
+            <style>
+              body{
+                  background-image: url(Backgroundpic.jpg);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: auto;
+              }
+      </style>
+            <link rel="stylesheet" href="background2.css">
+        </head>
+        <body>
+            <div id="container">
+                <header role="banner">
+                    <h1>Oraka EFetobo</h1>
+                </header>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About Me.html">About Me</a></li>
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="Awards.html">Awards</a></li>
+                        <li><a href="Lived.html">Lived</a></li>
+                        <li><a href="Travel.html">Travel</a></li>
+                        <li><a href="Interest.html">Interest</a></li>
+                        <li><a href="Career.html">Career</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Goals.html">Goals</a></li>
+                    </ul>
+                    <img src="mycrop.jpg" width ="100" height="100" alt="showy Lady Slipper">
+                </nav>
+                <aside role="complementary">
+                </aside>
+                <main role="main" id="content">
+                    <p> I have traveled to the Netherlands, Nigeria and United States.</p>
+                    <footer role="contentinfo"> Copyright &copy; 2019 EFetobo Oraka<br>
+                    </footer>
+                </main>
+            </div>
+            <div class="row">
+                    <div class="column" style="background-color:#aaa;">
+                      <h2>Africa</h2>
+                      <p>Nigeria</p>
+                    </div>
+                    <div class="column" style="background-color:#bbb;">
+                      <h2>Europe</h2>
+                      <p>Netherlands</p>
+                    </div>
+                    <div class="column" style="background-color:#ccc;">
+                      <h2>North America</h2>
+                      <p>United States</p>
+                    </div>
+                  </div>
+        </body>
+    </html>
